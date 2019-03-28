@@ -14,6 +14,12 @@
 		344E4FB8224A4E9A0045A29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344E4FB6224A4E9A0045A29B /* LaunchScreen.storyboard */; };
 		344E4FBB224A4E9A0045A29B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 344E4FBA224A4E9A0045A29B /* main.m */; };
 		344E4FC4224A4EDA0045A29B /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 344E4FC3224A4EDA0045A29B /* Tool.m */; };
+		3472A3B2224CB4A500573393 /* NSAttributedString+LineSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472A3A8224CB4A400573393 /* NSAttributedString+LineSpacing.m */; };
+		3472A3B3224CB4A500573393 /* UIFont+FitSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472A3A9224CB4A400573393 /* UIFont+FitSize.m */; };
+		3472A3B4224CB4A500573393 /* UIDevice+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472A3AA224CB4A400573393 /* UIDevice+category.m */; };
+		3472A3B5224CB4A500573393 /* UIResponder+tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472A3AF224CB4A500573393 /* UIResponder+tools.m */; };
+		3472A3B6224CB4A500573393 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472A3B0224CB4A500573393 /* UIColor+HexColor.m */; };
+		3472A3B7224CB4A500573393 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472A3B1224CB4A500573393 /* UITabBar+badge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +35,19 @@
 		344E4FBA224A4E9A0045A29B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		344E4FC2224A4EDA0045A29B /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
 		344E4FC3224A4EDA0045A29B /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		3472A3A5224CB2B900573393 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		3472A3A6224CB4A400573393 /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+badge.h"; sourceTree = "<group>"; };
+		3472A3A7224CB4A400573393 /* UIDevice+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+category.h"; sourceTree = "<group>"; };
+		3472A3A8224CB4A400573393 /* NSAttributedString+LineSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LineSpacing.m"; sourceTree = "<group>"; };
+		3472A3A9224CB4A400573393 /* UIFont+FitSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FitSize.m"; sourceTree = "<group>"; };
+		3472A3AA224CB4A400573393 /* UIDevice+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+category.m"; sourceTree = "<group>"; };
+		3472A3AB224CB4A400573393 /* UIResponder+tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+tools.h"; sourceTree = "<group>"; };
+		3472A3AC224CB4A500573393 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		3472A3AD224CB4A500573393 /* UIFont+FitSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FitSize.h"; sourceTree = "<group>"; };
+		3472A3AE224CB4A500573393 /* NSAttributedString+LineSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LineSpacing.h"; sourceTree = "<group>"; };
+		3472A3AF224CB4A500573393 /* UIResponder+tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+tools.m"; sourceTree = "<group>"; };
+		3472A3B0224CB4A500573393 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		3472A3B1224CB4A500573393 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+badge.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +97,21 @@
 		344E4FC1224A4EC60045A29B /* SYTool */ = {
 			isa = PBXGroup;
 			children = (
+				3472A3A5224CB2B900573393 /* Config.h */,
 				344E4FC2224A4EDA0045A29B /* Tool.h */,
 				344E4FC3224A4EDA0045A29B /* Tool.m */,
+				3472A3AE224CB4A500573393 /* NSAttributedString+LineSpacing.h */,
+				3472A3A8224CB4A400573393 /* NSAttributedString+LineSpacing.m */,
+				3472A3AC224CB4A500573393 /* UIColor+HexColor.h */,
+				3472A3B0224CB4A500573393 /* UIColor+HexColor.m */,
+				3472A3A7224CB4A400573393 /* UIDevice+category.h */,
+				3472A3AA224CB4A400573393 /* UIDevice+category.m */,
+				3472A3AD224CB4A500573393 /* UIFont+FitSize.h */,
+				3472A3A9224CB4A400573393 /* UIFont+FitSize.m */,
+				3472A3AB224CB4A400573393 /* UIResponder+tools.h */,
+				3472A3AF224CB4A500573393 /* UIResponder+tools.m */,
+				3472A3A6224CB4A400573393 /* UITabBar+badge.h */,
+				3472A3B1224CB4A500573393 /* UITabBar+badge.m */,
 			);
 			path = SYTool;
 			sourceTree = "<group>";
@@ -155,9 +187,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				344E4FB0224A4E990045A29B /* ViewController.m in Sources */,
+				3472A3B7224CB4A500573393 /* UITabBar+badge.m in Sources */,
 				344E4FBB224A4E9A0045A29B /* main.m in Sources */,
+				3472A3B5224CB4A500573393 /* UIResponder+tools.m in Sources */,
+				3472A3B2224CB4A500573393 /* NSAttributedString+LineSpacing.m in Sources */,
+				3472A3B3224CB4A500573393 /* UIFont+FitSize.m in Sources */,
+				3472A3B6224CB4A500573393 /* UIColor+HexColor.m in Sources */,
 				344E4FAD224A4E990045A29B /* AppDelegate.m in Sources */,
 				344E4FC4224A4EDA0045A29B /* Tool.m in Sources */,
+				3472A3B4224CB4A500573393 /* UIDevice+category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
