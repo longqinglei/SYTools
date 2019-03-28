@@ -126,11 +126,11 @@
 }
 
 
-//拨打电话
-+ (void)callMobileWithMobileNumber:(NSString *)mobile{
-    NSMutableString *str = [[NSMutableString alloc] initWithFormat:@"tel:%@",mobile];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str] options:@{} completionHandler:nil];
-}
+////拨打电话
+//+ (void)callMobileWithMobileNumber:(NSString *)mobile{
+//    NSMutableString *str = [[NSMutableString alloc] initWithFormat:@"tel:%@",mobile];
+//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str] options:@{} completionHandler:nil];
+//}
 
 
 + (NSString *)MD5ForLower32Bate:(NSString *)str{

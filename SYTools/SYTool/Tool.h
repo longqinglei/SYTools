@@ -89,7 +89,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param mobile 电话号码
  */
-+ (void)callMobileWithMobileNumber:(NSString *)mobile;
+//+ (void)callMobileWithMobileNumber:(NSString *)mobile;
 
 
 /**
